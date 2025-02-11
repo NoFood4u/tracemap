@@ -10,4 +10,4 @@ Python libraries: tkinter, appdirs
 
 #
 
-[IP Geolocaton by DB-IP](https://db-ip.com')
+[IP Geolocaton by DB-IP](https://db-ip.com)
