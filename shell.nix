@@ -1,6 +1,5 @@
 let
-	#pkgs = import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/cf8cc1201be8bc71b7cbbbdaf349b22f4f99c7ae.tar.gz") {};
-	pkgs = import <nixpkgs> {};
+	pkgs = import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/a45fa362d887f4d4a7157d95c28ca9ce2899b70e.tar.gz") {};
 in pkgs.mkShell {
 	buildInputs = with pkgs; [
 		traceroute

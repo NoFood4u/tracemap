@@ -3,17 +3,6 @@
 #include<string.h>
 #include<unistd.h>
 
-/*const char* getField(char* line, int num)
-{
-	const char* tok;
-	for (tok = strtok(line, ","); tok && *tok; tok = strtok(NULL, ",\n")) {
-		if (!--num) {
-			return tok;
-		}
-	}
-	return NULL;
-}*/
-
 void printInfo(char* line)
 {
 	const char* tok;
